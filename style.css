@@ -78,6 +78,7 @@ body{
 /* popular-collection */
 .heading{
     text-align: center;
+   
 }
 .popular-collection{
     display: grid;
@@ -114,6 +115,24 @@ body{
     color: deeppink;
     font-size: 18px;
     
+}
+
+/*------------------- my idea-------------------------- */
+
+.my-idea{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.awesome{
+   margin: 600px;
+   font-size: xx-large;
+  color: chocolate;
+}
+.awesome:hover{
+    
+   font-weight: bolder;
 }
 /* ------------footer------------- */
 footer{
@@ -154,4 +173,21 @@ footer{
    .popular-collection{
        grid-template-columns: 1fr;
    } 
+   .my-idea{
+       display: flex;
+       justify-content: center;
+       margin: 0;
+       height: 200px;
+
+      
+   }
+   .awesome{
+    margin: 0;
+    font-size: medium;
+    order: 1;
+   }
+   .emoji img{
+       width: 200px;
+       height: 200px;
+   }
 }
