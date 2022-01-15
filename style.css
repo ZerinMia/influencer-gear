@@ -8,6 +8,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/*----------------- header menu----------------- */
 .top-menu{
     display: flex;
     justify-content: space-between;
@@ -24,6 +25,95 @@ body{
     margin-left:30px;
     font-size: 15px;
     color: black;
-    font-weight: 400;
+    font-weight: 700;
+    border-bottom: 2px solid #FF008E ;
     
 }
+.icon{
+    color: #FF008E;    
+}
+.highlight{
+    color: #FF008E;
+}
+/* --------------main part top-------------- */
+
+.banner{
+   display: flex;
+   justify-content: space-between;
+   height: 500px ;
+   align-items: center;
+   margin: 30px;
+   border-bottom: 2px solid lightgray;
+ }
+
+.banner-left h1{
+    font-size: 30px;
+}
+.banner-left p{
+    margin: 30px 0;
+    word-wrap: break-word;
+}
+.banner-button{
+    margin: 0;
+    padding: 5px 30px;
+    border: 0;
+    background-image: radial-gradient(#dd3290,#FF008E);
+    font-size: 15px;
+    color: whitesmoke;
+    border-radius: 35px;
+    box-shadow: 0  7px 0 #e03292;
+    position: relative;
+    cursor: pointer;
+}
+.banner-button:active{
+    top: 5px;
+    box-shadow: 0  5px 0 #be257a;
+}
+.camera img{
+    background-image:url(./images/Circle\ design.svg);
+  
+}
+/* popular-collection */
+.heading{
+    text-align: center;
+}
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-top: 2px solid lightgray;
+    margin: 50px;
+    height: auto;
+    
+    
+}
+.card{
+    
+    width: 300px;
+    padding:30px; 
+    margin: 0 auto;
+    box-shadow: 0 30px 35px rgba(0, 0, 0, 0.37);
+}
+.fill{
+    color: goldenrod;
+}
+.card p{
+    color: gray;
+    margin: 5px;
+}
+.card-photo img{
+    width: 100%;
+}
+/* ------------footer------------- */
+footer{
+    text-align: center;
+    background-color: rgb(5, 5, 87);
+    color: whitesmoke;
+    padding: 40px;
+}
+.foot{
+    margin: 10px;
+}
+/*-----------------------------
+----------Responsive css-------
+-------------------------------- */
+
